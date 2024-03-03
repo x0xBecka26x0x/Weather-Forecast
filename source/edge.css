@@ -11,7 +11,7 @@ a {
     background: white;
     max-width: 650px;
     margin: 45px auto;
-    box-shadow: 0 50px 65px rgba(65, 50, 100, 0.08);
+    box-shadow: 0 50px 65px rgba(65, 50, 100, 0.20);
     border-radius: 14px;
     padding: 30px;
 }
@@ -31,7 +31,7 @@ header {
 }
 
 .search-button {
-    background: #885df1;
+    background: #f51dd1;
     padding: 15px 25px;
     border: none;
     font-size: 16px;
@@ -64,7 +64,7 @@ main {
 }
 
 .weather-details strong {
-    color: #e209d0;
+    color: #f51dd1;
 }
 
 .weather-container {
@@ -81,18 +81,21 @@ main {
     font-size: 88px;
     line-height: 88px;
     font-weight: bold;
+    color: #4b494b;
 }
 
 .weather-unit {
-    margin-top: 6px;
+    margin-top: 4px;
     font-size: 28px;
+    font-weight: bold;
+    color: #885df1;
 }
 
 footer {
-    border-top: 3px solid #f9f7fe;
+    border-top: 4px solid #f9f7fe;
     padding: 30px 0 0 0;
     text-align: center;
     font-size: 15px;
-    color: rgba(0,0,0,0.10);
+    color: rgba(0,0,0,0.8);
 }
 

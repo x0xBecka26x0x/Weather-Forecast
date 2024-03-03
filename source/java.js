@@ -59,3 +59,4 @@ searchFormElement.addEventListener("submit", search);
 
 
 searchCity("Paris");
+

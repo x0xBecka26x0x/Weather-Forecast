@@ -14,7 +14,7 @@ a {
     margin: 35px auto;
     box-shadow: 0 30px 50px rgba(65, 50, 100, 0.20);
     border-radius: 16px;
-    padding: 80px;
+    padding: 50px;
 }
 
 header {
@@ -83,7 +83,7 @@ main {
     line-height: 88px;
     margin-left: 5px;
     font-weight: bold;
-    color: #4b494b;
+    color: #413e41;
 }
 
 .weather-unit {
@@ -124,6 +124,7 @@ main {
 .forecast-temperature {
     opacity: 0.5;
     padding: 0 10px;
+    color: #1d011d;
 }
 
 footer {

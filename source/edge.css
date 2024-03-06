@@ -95,20 +95,17 @@ main {
 }
 
 .forecast {
-    display: block;
+    display: flex;
+    justify-content: space-around;
     margin-top: 5px;
     color: black;
 }
 
 .weather-forecast-day {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 10px;
+    font-size: 16px;
 }
 
 .forecast-date {
-    display: block;
-    text-align: center;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 10px;
@@ -116,18 +113,14 @@ main {
 
 .weather-forecast-icon {
     font-size: 35px;
-    text-align: center;
-    display: block;
 }
 
 .forecast-temperatures {
-    text-align: center;
     margin-top: 10px;
 }
 
 .forecast-temperature {
     opacity: 0.5;
-    text-align: center;
     padding: 0 10px;
 }
 

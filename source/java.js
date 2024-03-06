@@ -53,10 +53,36 @@ function search(event) {
     
     searchCity(searchInput.value);
 }
+
+function displayForecast() {
+    let days = ["Tue", "Wed", "Thur", "Fri", "Sat"];
+    let forecastHTML = "";
+
+    days.forEach(function (day) {
+        forecastHTML = 
+            forecastHTML +
+            `  
+            <div class="forecast-date">${day}</div>
+            <div id="weather-icon"></div>
+            <div class="forecast-temperatures">
+                <div class="forecast-temperature-max"> 
+                18°</div>
+                <div class="forecast-temperature-min">
+                12°</div>
+                </div>
+            </div>
+         `;
+    });
+
+    let forecastElement = document.querySelector("#forecast");
+    forecastElement.innerHTML = forecastHTML;
+}
     
 let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", search);
 
 
 searchCity("Paris");
+displayForecast();
+
 
